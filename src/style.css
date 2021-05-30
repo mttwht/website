@@ -1,0 +1,18 @@
+body {
+    font-family: 'Fira Mono', monospace;
+}
+
+.container {
+    margin: 32px auto;
+    max-width: 720px;
+    padding-block: 64px;
+}
+
+header h1, header h2 {
+    font-weight: normal;
+    margin-block: 0em;
+}
+
+header h2 {
+    opacity: 50%;
+}
