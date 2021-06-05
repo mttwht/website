@@ -16,3 +16,16 @@ header h1, header h2 {
 header h2 {
     opacity: 50%;
 }
+
+header nav {
+    margin-block: 32px;
+}
+
+header nav a {
+    margin-inline: 2em;
+}
+
+.content {
+    line-height: 1.5em;
+}
+
