@@ -3,8 +3,8 @@ My personal website
 
 ## TODO
  - [ ] Photos
+ - [x] Skills word cloud
  - [ ] Dark mode toggler
- - [ ] Skills word cloud
  - [ ] Seasonal themes?
  - [ ] Syntax highlighting
  - [ ] Blog

@@ -37,3 +37,44 @@ header nav a {
     display: none;
 }
 
+/* Word cloud styles for skills */
+/* Inspired by Alvoro Montoros post @ https://dev.to/alvaromontoro/create-a-tag-cloud-with-html-and-css-1e90 */
+
+ul.skills {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.skills li {
+    display: block;
+    padding: 0.4rem 0.8rem;
+}
+
+ul.skills a {
+    text-decoration: none;
+}
+
+ul.skills a[data-proficiency="beginner"] { --size: 1; }
+ul.skills a[data-proficiency="dangerous"] { --size: 1; }
+ul.skills a[data-proficiency="working"] { --size: 2; }
+ul.skills a[data-proficiency="competent"] { --size: 3; }
+ul.skills a[data-proficiency="comfortable"] { --size: 5; }
+ul.skills a[data-proficiency="fluent"] { --size: 8; }
+
+ul.skills a {
+    --size: 0;
+    font-size: calc(var(--size) * 0.6rem);
+}
+
+ul.skills a { color: black; }
+ul.skills a.framework { color: #ae81ff; }
+ul.skills a.language { color: #f92672; }
+ul.skills a.tool { color: #fd971f; }
+ul.skills a.ide { color: #66d9ef; }
+ul.skills a.os { color: #a6e22e; }
+ul.skills a.methodology { color: #cfcfc2; }
+
