@@ -29,3 +29,11 @@ header nav a {
     line-height: 1.5em;
 }
 
+.content > div {
+    margin-block: 1em;
+}
+
+.content > div.hide {
+    display: none;
+}
+
