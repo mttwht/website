@@ -5,7 +5,7 @@
 
 })();
 
-	document.getElementsByTagName("nav")[0].firstElementChild.click();
+	// document.getElementsByTagName("nav")[0].firstElementChild.click();
 
 function showSectionFromLinkElement(event) {
 	var name = event.target.textContent.toLowerCase().replace(" ", "-");
