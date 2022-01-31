@@ -9,6 +9,9 @@ body {
     padding-block: 64px;
 }
 
+header {
+}
+
 header h1, header h2 {
     font-weight: normal;
     margin-block: 0em;
@@ -81,3 +84,24 @@ ul.skills a.ide { color: #66d9ef; }
 ul.skills a.os { color: #a6e22e; }
 ul.skills a.methodology { color: #cfcfc2; }
 
+/* Just for fun */
+
+/* h2 + h2 {
+    opacity: 40%;
+}
+
+h2 + h2 + h2 {
+    opacity: 30%;
+}
+
+h2 + h2 + h2 + h2 {
+    opacity: 20%;
+}
+
+h2 + h2 + h2 + h2 + h2 {
+    opacity: 10%;
+}
+
+h2 + h2 + h2 + h2 + h2 + h2 {
+    opacity: 05%;
+} */
