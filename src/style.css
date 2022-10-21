@@ -9,9 +9,6 @@ body {
     padding-block: 64px;
 }
 
-header {
-}
-
 header h1, header h2 {
     font-weight: normal;
     margin-block: 0em;
